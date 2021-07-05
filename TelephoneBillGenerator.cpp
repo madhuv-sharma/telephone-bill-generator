@@ -104,6 +104,7 @@ main()
 				fct.write((char*)&ct,sizeof(ct));
 				fct.close();
 				break;
+
 			case 2:
 				fcm.open("Cust.dat",ios::app|ios::out);
 				fct.open("City.dat",ios::in);
@@ -132,6 +133,7 @@ main()
 				fct.close();
 				fcm.close();
 				break;
+
 			case 3:
 				fct.open("City.dat",ios::in);
 				cout<<"City Code"<<"\t"<<"City"<<"\t\t"<<"Kilometres away"<<endl;
@@ -143,6 +145,7 @@ main()
 				}
 				fct.close();
 				break;
+
 			case 4:
 				fcm.open("Cust.dat",ios::in);
 				cout<<"Name"<<"\t\t"<<"City Code"<<"\t"<<"Seconds"<<"\t\t"<<"Bill Amount"<<endl;
@@ -154,6 +157,7 @@ main()
 				}
 				fcm.close();
 				break;
+
 			case 5:
 				cout<<"Thank you";
 		}
