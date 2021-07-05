@@ -155,7 +155,7 @@ main()
 				fcm.close();
 				break;
 			case 5:
-			cout<<"Thank you";
+				cout<<"Thank you";
 		}
 	cout<<"\n\nPress any key to continue.......\n\n";
 	getch();
